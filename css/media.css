@@ -1,0 +1,718 @@
+/* extra extra-large device start */
+
+/* extra extra-large device end */
+/* extra-large device start */
+@media (min-width: 1200px) and (max-width: 1399px){
+    /* banner area start */
+    .banner-item{
+        margin-top: 0px;
+    }
+    .banner-content h1 {
+        font-size: 134px;
+        line-height: 140px;
+        margin-top: 20px;
+    }
+    .banner-content h2 {
+        font-size: 72px;
+        /* margin-top: 83px; */
+    }
+    .banner-content h1::after {
+        bottom: -3px;
+    }
+     
+    .banner-content button {
+        margin-top: 24px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    /* banner area end */
+
+    /* footer area start */
+    .f-left-btm p::after {
+        width: 100%;
+    }
+    .form-field input {
+        width: 100%;
+    }
+    .subscribe button {
+        right: 141px;
+    }
+    .vanga {
+        padding-right: 30px;
+    }
+    /* footer area end */
+}
+/* extra-large device end */
+/* large device start */
+@media (min-width: 992px) and (max-width: 1199px){
+    /* banner area start */
+    .banner-item{
+        margin-top: 0px;
+    }
+    .banner-content h1 {
+        font-size: 111px;
+        line-height: 110px;
+        margin-top: 25px;
+    }
+    .banner-content h2 {
+        font-size: 70px;
+        margin-top: 83px;
+    }
+    .banner-content h1::after {
+        bottom: -8px;
+    }
+     
+    .banner-content button {
+        margin-top: 24px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+    /* banner area end */
+
+    /* about area start*/
+    #about {
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+    .center-about.slick-center{
+        transform: scale(1.09);
+        transition: all linear 0.3s;
+    }
+    #about .heading h3 {
+        padding-bottom: 36px;
+        font-size: 28px;
+    }
+    #about .heading p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    /* about area end */
+
+    /* service area start */
+    #service {
+        padding-top: 105px;
+    }
+    #service .heading h3 {
+        font-size: 28px;
+    }
+    .service-icon {
+        margin-bottom: 20px;
+    }
+    .service-content{
+        margin-bottom: 30px;
+    }
+    .secound-row {
+        margin-top: 0px;
+    }
+    /* service area end */
+
+    /* comment area start */
+    .comment-icon{
+        margin: 0 auto;
+    }
+    .comment-text{
+        text-align: left;
+    }
+    .comment-text p {
+        font-size: 22px;
+    }
+    
+    /* comment area end */
+
+    /* team area start */
+    #team {
+        padding-top: 101px;
+        padding-bottom: 70px;
+    }
+    /* team area end */
+
+    /* footer area start */
+    .f-left-btm p::after {
+        width: 100%;
+    }
+    .follow-us a {
+        padding-right: 10px;
+        font-size: 19px;
+    }
+    .vanga {
+        padding-right: 0px;
+    }
+    .last {
+        padding-right: 0px;
+    }
+    .form-field input {
+        width: 100%;
+    }
+    .subscribe button {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        right: 45px;
+    }
+    /* footer area end */
+}
+/* large device end */
+
+/* medium device start */
+@media (min-width: 768px) and (max-width: 991px){
+    /* banner area start */
+    .banner-item{
+        margin-top: 0px;
+    }
+    .banner-content h1 {
+        font-size: 100px;
+        line-height: 100px;
+        margin-top: 25px;
+    }
+    .banner-content h2 {
+        font-size: 60px;
+        margin-top: 26px;
+    }
+    .banner-content h1::after{
+        display: none;
+    }
+     
+    .banner-content button {
+        margin-top: 7px;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+    /* banner area end */
+    
+    /* navber area start */
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        transform: scale(0.8);
+    }
+    .navbar{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: rgba(0,0,0,0);
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{ 
+        /* background-color: blue; */
+        text-align: center;
+        margin-top: 10px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: black;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-top: 7px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .btn-primary {
+        background-color: transparent;
+        border-color: transparent;
+        transition: all linear 0.3s;
+    }
+    .btn-primary:hover {
+        color: #000;
+        background-color: #adbbce;
+        border-color: #ac0606;
+    }
+    /* navbar area end */
+
+    /* about area start*/
+    #about {
+        padding-top: 82px;
+        padding-bottom: 78px;
+    }
+    .center-about.slick-center{
+        transform: scale(1.09);
+        transition: all linear 0.3s;
+    }
+    #about .heading h3 {
+        padding-bottom: 32px;
+        font-size: 27px;
+    }
+    #about .heading p {
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 27px;
+        margin-bottom: 0px;
+    }
+    /* about area end */
+
+    /* counter area start */
+    .counter-up{
+        margin-bottom: 40px;
+    }
+    .counters{
+        width: 33%;
+    }
+    /* counter area end */
+
+    /* service area start */
+    #service {
+        padding-top: 92px;
+    }
+    #service .heading h3 {
+        font-size: 27px;
+    }
+    .service-icon {
+        margin-bottom: 20px;
+    }
+    .service-content{
+        margin-bottom: 30px;
+    }
+    .secound-row {
+        margin-top: 0px;
+    }
+    /* service area end */
+
+    /* comment area start */
+    .comment-icon{
+        margin: 0 auto;
+    }
+    .comment-text{
+        text-align: left;
+    }
+    .comment-text p {
+        font-size: 22px;
+    }
+    .inner-comment span {
+        margin-left: 70px;
+    }
+    /* comment area end */
+
+    /* team area start */
+    #team {
+        padding-top: 99px;
+        padding-bottom: 28px;
+    }
+    .center-team.slick-center{
+        transform: scale(1);
+        transition: all linear 0.3s;
+    }
+    /* team area end */
+
+    /* footer area start*/
+    .f-left-btm p::after {
+        width: 100%;
+    }
+    .follow-us span {
+        font-size: 15px;
+        margin-right: 21px;
+    }
+    .follow-us a {
+        font-size: 20px;
+        padding-right: 18px;
+    }
+    .subscribe{
+        position: relative;
+    }
+    .subscribe button {
+        position: absolute;
+        right: 161px;
+        top: 0;
+    }
+    /* footer area end */
+
+    /* copyright area start */
+    .copy-text{
+        text-align: center;
+    }
+    /* copyright area end */ 
+}
+/* medium device end */
+
+/* small device start */
+@media (min-width: 576px) and (max-width: 767px){
+    /* banner area */
+    .banner-item{
+        margin-top: 0px;
+    }
+    .banner-content h1 {
+        font-size: 55px;
+        line-height: 51px;
+        margin-top: 25px;
+    }
+    .banner-content h2 {
+        font-size: 50px;
+        margin-top: 26px;
+    }
+    .banner-content h1::after{
+        display: none;
+    }
+     
+    .banner-content button {
+        margin-top: 14px;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+    /* banner area end */
+
+    /* navber area start */
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        transform: scale(0.8);
+    }
+    .navbar{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: rgba(0,0,0,0);
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{ 
+        /* background-color: blue; */
+        text-align: center;
+        margin-top: 10px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: black;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-top: 7px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .btn-primary {
+        background-color: #d47878;
+        border-color: #d47878;
+    }
+    .btn-primary:hover {
+        color: #000;
+        background-color: #adbbce;
+        border-color: #adbbce;
+    }
+    /* navbar area end */
+    /* about area */
+    #about {
+        padding-top: 82px;
+        padding-bottom: 78px;
+    }
+    .center-about.slick-center{
+        transform: scale(1);
+        transition: all linear 0.3s;
+    }
+    #about .heading h3 {
+        padding-bottom: 32px;
+        font-size: 27px;
+    }
+    #about .heading p {
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 27px;
+        margin-bottom: 0px;
+    }
+    
+    /* about area end */
+    /* counter area start */
+    .counter-up{
+        margin-bottom: 40px;
+    }
+    .counters{
+        width: 50%;
+    }
+    /* counter area end */
+    /* service area start */
+    #service {
+        padding-top: 92px;
+    }
+    #service .heading h3 {
+        font-size: 27px;
+    }
+    .service-icon {
+        margin-bottom: 20px;
+    }
+    .service-content{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .service-content h5 {
+        margin-bottom: 15px;
+    }
+    .service-content p {
+        font-size: 15px;
+    }
+    .secound-row {
+        margin-top: 0px;
+    }
+    /* service area end */
+    /* comment area start */
+    .comment-icon{
+        margin: 0 auto;
+    }
+    .comment-text{
+        text-align: center;
+    }
+    .comment-text p {
+        font-size: 22px;
+    }
+    /* comment area end*/
+    /* team area start */
+    #team {
+        padding-top: 72px;
+        padding-bottom: 20px;
+    }
+    #team .heading p {
+        margin-bottom: 8px;
+    }
+    .team-text {
+        margin-top: 20px;
+    }
+    .team-text h3 {
+        margin-bottom: 13px;
+    }
+    .center-team.slick-center{
+        transform: scale(1);
+        transition: all linear 0.3s;
+    }
+    /* team area end */
+    /* gallery area start */
+    #gallery .heading p{
+        margin-bottom: 28px;
+    }
+    /* gallery area end */
+    /* footer area */
+    .f-left-btm p::after {
+        width: 100%;
+    }
+    .follow-us span {
+        font-size: 15px;
+        margin-right: 21px;
+    }
+    .follow-us a {
+        font-size: 20px;
+        padding-right: 18px;
+    }
+    .subscribe{
+        position: relative;
+    }
+    .subscribe button{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    /* footer area end */
+    /* copyright area start */
+    .copy-text{
+        text-align: center;
+    }
+    /* copyright area end */ 
+    
+}
+/* small device end */
+
+/* extra-small device start */
+@media (max-width: 575.99px){
+    /* banner area start */
+    .banner-item{
+        margin-top: 0px;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+        line-height: 0px;
+        margin-top: 22px;
+    }
+    .banner-content h2 {
+        font-size: 20px;
+        /* margin-top: 26px; */
+    }
+    .banner-content h1::after{
+        display: none;
+    }
+     .counter-up h4{
+         font-size: 100px !important;
+     }
+    .banner-content button {
+        margin-top: 19px;
+        padding-left: 9px;
+        padding-right: 9px;
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+    /* banner area end */
+    
+    /* navber area start */
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+        transform: scale(0.8);
+    }
+    .navbar{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: rgba(0,0,0,0);
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav{ 
+        /* background-color: blue; */
+        text-align: center;
+        margin-top: 10px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: black;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link::after {
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-top: 7px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-item {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .btn-primary {
+        background-color: transparent;
+        border-color: transparent;
+        transition: all linear 0.3s;
+    }
+    .btn-primary:hover {
+        color: #000;
+        background-color: #adbbce;
+        border-color: #ac0606;
+    }
+    /* navbar area end */
+
+    /* about area start*/
+    #about {
+        padding-top: 70px;
+        padding-bottom: 37px;
+    }
+    .center-about.slick-center{
+        transform: scale(1);
+        transition: all linear 0.3s;
+    }
+    .heading h3 {
+        padding-bottom: 28px;
+        font-size: 23px;
+    }
+    .heading p {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 27px;
+        margin-bottom: 0px;
+    }
+    /* about area end */
+
+    /* counter area start */
+    .counter-up{
+        margin-bottom: 40px;
+    }
+    
+    /* counter area end */
+
+    /* service area start */
+    #service {
+        padding-top: 92px;
+        padding-bottom: 61px;
+    }
+    #service .heading h3 {
+        font-size: 23px;
+    }
+    .service-icon {
+        margin-bottom: 20px;
+    }
+    .service-content{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .secound-row {
+        margin-top: 0px;
+    }
+    /* service area end */
+
+    /* comment area start */
+    .comment-icon{
+        margin: 0 auto;
+    }
+    .comment-text{
+        text-align: center;
+    }
+    .comment-text p {
+        font-size: 20px;
+    }
+    
+    /* comment area end */
+
+    /* team area start */
+    #team {
+        padding-top: 72px;
+        padding-bottom: 20px;
+    }
+    .team-text h3{
+        margin-bottom: 11px;
+    }
+    .center-team.slick-center{
+        transform: scale(1);
+        transition: all linear 0.3s;
+    }
+    /* team area end */
+    /* gallery area start */
+    #gallery .heading p{
+        margin-bottom: 28px;
+    }
+    /* gallery area end */
+
+    /* footer area start*/
+    .f-left-btm p::after {
+        width: 100%;
+    }
+    .follow-us span {
+        font-size: 14px;
+        margin-right: 7px;
+    }
+    .follow-us a {
+        font-size: 17px;
+        padding-right: 9px;
+    }
+    
+    .subscribe button {
+        padding: 9px 12px;
+        width: 100%;
+        right: 0px;
+    }
+    .form-field input{
+        width: 100%;
+        margin-bottom: 17px;
+    }
+    .f-right-text{
+        text-align: center;
+    }
+    /* footer area end */    
+}
+@media (min-width: 460px) and (max-width: 575px){
+    .service-content p{
+        padding: 0 70px;
+    }
+}
+/* extra small device end */
